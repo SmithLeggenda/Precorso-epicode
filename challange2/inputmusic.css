@@ -1,0 +1,46 @@
+p {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: small;
+}
+
+div {
+    margin-left: 0px;
+    margin: 7%;
+   
+}
+
+
+body {
+    background-image: url('Ascoltatrice.jpeg');
+    background-size: 100%;
+
+}
+
+h1  {
+    color: purple;
+    text-align: left;
+    margin: 2 px;
+    margin-bottom: 1px;
+}
+
+h2  {
+    color: violet;
+    text-align: left;
+}
+
+h3 {
+    margin: 7%;    
+}
+
+button {
+    margin-left: 7%;
+}
+
+form{
+    margin: 7%;
+}
+
+.check {
+    color: purple;
+    font-weight: 600;
+}

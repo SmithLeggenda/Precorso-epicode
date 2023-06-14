@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="inputmusic.css">
+    <title>MusicTrends</title>
+</head>
+
+<body>
+    <div class="intro" >
+        <h1>Music Trends</h1>
+        <h2>Vivi la tua musica</h2>
+        
+    </div>
+    <h3>Iscriviti per ascoltare <br> tutte le hit del momento </h3>
+     
+    <form>
+        <h4>Inserisci i tuoi dati</h4>
+        
+            <p> Nome<input type="text" placeholder="Il tuo nome">  </p>
+            <p> Cognome <input type="text" placeholder="Il tuo cognome"> </p>
+            <p> Data di nascita <input type="date"> </p> 
+            <p>Username <input type="mail" placeholder="Inserisci la tua mail"> </p>
+            <p>Password <input type="password" placeholder="Crea la tua password"> </p>
+            <p>Mobile phone <input type="tel" placeholder="Numero di telefono"> </p>
+    </form>
+    
+
+    <form>
+         <h4> Personalizza il genere di musica che vuoi ascoltare</h4>
+        <p class="check">
+            <input type="checkbox" name="music_type" value="Classica">Classica    
+            <input type="checkbox" name="music_type" value="Metal">Metal 
+        </p>
+
+        <p class="check">
+            <input type="checkbox" name="music_type" value="Rock">Rock
+            <input type="checkbox" name="music_type" value="Jazz">Jazz
+        </p>
+    
+        <p class="check">
+            <input type="checkbox" name="music_type" value="Dance">Dance
+            <input type="checkbox" name="music_type" value="Summer Hits">Summer Hits
+        </p>
+
+        <p class="check">
+            <input type="checkbox" name="music_type" value="Pop">Pop
+            <input type="checkbox" name="music_type" value="Rap">Rap 
+        </p>
+
+        <p class="check"> 
+            <input type="checkbox" name="music_type" value="Altro">Altro 
+        </p>
+    </form>
+
+<div>
+    <input type="radio" name="Accetta tutte le nostre condizioni">Accetta la nostra policy
+
+    <button type="submit" onclick="alert('Complimenti! Sei iscritto a MusicTrends')">Iscriviti a MusicTrends</button>
+</div>
+</body>
+</html>

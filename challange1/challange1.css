@@ -1,0 +1,41 @@
+body {
+    background-color: rgb(255, 253, 196);
+}
+
+div {
+    margin: 30px;
+    margin-left: 0px;
+
+}
+
+span{
+    color: blue;
+    font-style: italic;
+}
+
+
+table{
+    border-collapse: collapse;
+}
+
+caption {
+    font-weight: bold;
+    text-align: left;
+    font-size: larger;
+    margin: 3px;
+
+}
+
+td, th {
+    
+    border-width: 2px;
+    border-style: groove;
+    border-color: black;
+    padding: 12px;
+}
+
+.look {
+    font-style: italic;
+    color: brown;
+    font-weight: bold;
+}
